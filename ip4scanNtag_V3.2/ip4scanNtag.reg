@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Intermec\ip4scanNtag]
+"EnableTwoTAGscanning"=dword:00000001
+"UseBitMask"=dword:00000000
+"FreeInput"=dword:00000000
+"EventLogging"=dword:00000000
+"EditingEnabled"=dword:00000000
+"BoxIDscanningEnabled"=dword:00000000
+"DebugModus"=dword:00000000
+

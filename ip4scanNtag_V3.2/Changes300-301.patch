@@ -1,0 +1,175 @@
+diff Bb D:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.cs U:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.cs
+24,26d23
+<         String txtConnectMsg = "RFID Reader verbinden";
+<         String txtDisconnectMsg = "RFID Reader trennen";
+< 
+210,211c207
+<             //btnConnect.Text = "Disconnect Reader";
+<             btnConnect.Text = txtDisconnectMsg;
+---
+>             btnConnect.Text = "Disconnect Reader";
+215,216c211
+<                     //txtStatus.Text = "Offline, please connect";
+<                     txtStatus.Text = "Offline, bitte verbinden";
+---
+>                     txtStatus.Text = "Offline, please connect";
+220c215
+<                     btnConnect.Text = txtConnectMsg;// "Connect Reader";
+---
+>                     btnConnect.Text = "Connect Reader";
+229,230c224
+<                     //txtStatus.Text = "Waiting for Barcode";
+<                     txtStatus.Text = "Warte auf Barcode";
+---
+>                     txtStatus.Text = "Waiting for Barcode";
+241,242c235
+<                     //txtStatus.Text = "Waiting for single TAG";
+<                     txtStatus.Text = "Warte auf ein TAG";
+---
+>                     txtStatus.Text = "Waiting for single TAG";
+248,249c241
+<                     //txtStatus.Text = "Waiting for two TAGs";
+<                     txtStatus.Text = "Warte auf zwei TAGs";
+---
+>                     txtStatus.Text = "Waiting for two TAGs";
+255,256c247
+<                     //txtStatus.Text = "TAG read error. Try again.";
+<                     txtStatus.Text = "TAG-Lesefehler. Wiederholen!";
+---
+>                     txtStatus.Text = "TAG read error. Try again.";
+262,263c253
+<                     //txtStatus.Text = "Look for two TAGs. Try again.";
+<                     txtStatus.Text = "Zwei TAGs notwendig. Wiederholen!";
+---
+>                     txtStatus.Text = "Look for two TAGs. Try again.";
+272,273c262
+<                     //txtStatus.Text = "Waiting for BoxID";
+<                     txtStatus.Text = "Warte auf BoxID";
+---
+>                     txtStatus.Text = "Waiting for BoxID";
+278,279c267
+<                     //txtStatus.Text = "Error scanning BoxID";
+<                     txtStatus.Text = "Fehler in der BoxID";
+---
+>                     txtStatus.Text = "Error scanning BoxID";
+284,285c272
+<                     //txtStatus.Text = "Writing single TAG";
+<                     txtStatus.Text = "Ein TAG beschreiben";
+---
+>                     txtStatus.Text = "Writing single TAG";
+294,295c281
+<                     //txtStatus.Text = "Writing two TAGs";
+<                     txtStatus.Text = "Zwei TAGs beschreiben";
+---
+>                     txtStatus.Text = "Writing two TAGs";
+302,303c288
+<                     //txtStatus.Text = "Tag write error. Same TAG?";
+<                     txtStatus.Text = "TAG-Schreibfehler. Anderes TAG?";
+---
+>                     txtStatus.Text = "Tag write error. Same TAG?";
+309,310c294
+<                     //txtStatus.Text = "Tag write error. Same TAGs?";
+<                     txtStatus.Text = "TAGs-Schreibfehler. Andere TAGs?";
+---
+>                     txtStatus.Text = "Tag write error. Same TAGs?";
+316,317c300
+<                     //txtStatus.Text = "Please look for a single TAG";
+<                     txtStatus.Text = "Bitte genau ein TAG suchen!";
+---
+>                     txtStatus.Text = "Please look for a single TAG";
+323,324c306
+<                     //txtStatus.Text = "Barcode does not meet Spec!";
+<                     txtStatus.Text = "Barcode passt nicht ins Schema!";
+---
+>                     txtStatus.Text = "Barcode does not meet Spec!";
+332,333c314
+<                     //txtStatus.Text = "TAG-Data does not meet Spec!";
+<                     txtStatus.Text = "TAG-Data passt nicht ins Schema!";
+---
+>                     txtStatus.Text = "TAG-Data does not meet Spec!";
+338,339c319
+<                     //txtStatus.Text = "Unknown Status";
+<                     txtStatus.Text = "Unbekannter Status";
+---
+>                     txtStatus.Text = "Unknown Status";
+413c393
+<                 btnConnect.Text = txtDisconnectMsg;// "Disconnect Reader";
+---
+>                 btnConnect.Text = "Disconnect Reader";
+1519c1499
+<             MessageBox.Show("ip4 Scan-N-tag\nDemo-Application\nVersion 3.01", this.Text);
+---
+>             MessageBox.Show("ip4 Scan-N-tag\nDemo-Application\nVersion 3.0", this.Text);
+diff Bb D:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.Designer.cs U:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.Designer.cs
+83c83
+<             this.menuItem1.Text = "Datei";
+---
+>             this.menuItem1.Text = "File";
+87c87
+<             this.mnuEnableOptions.Text = "Optionen freischalten";
+---
+>             this.mnuEnableOptions.Text = "Enable Options";
+92c92
+<             this.mnuRestart.Text = "Neustart";
+---
+>             this.mnuRestart.Text = "Restart";
+98c98
+<             this.mnuDisconnectReader.Text = "Reader trennen";
+---
+>             this.mnuDisconnectReader.Text = "Disconnect Reader";
+103c103
+<             this.mnuConnectReader.Text = "Reader verbinden";
+---
+>             this.mnuConnectReader.Text = "Connect Reader";
+108c108
+<             this.mnuExit.Text = "Beenden";
+---
+>             this.mnuExit.Text = "Exit";
+122c122
+<             this.menuItem2.Text = "Optionen"; //"Options";
+---
+>             this.menuItem2.Text = "Options";
+132c132
+<             this.mnuUseBitMask.Text = "Bitmasken verwenden";// "Use bit mask";
+---
+>             this.mnuUseBitMask.Text = "Use bit mask";
+137c137
+<             this.mnuWriteTag.Text = "TAG(s) beschreiben"; // "Write TAG";
+---
+>             this.mnuWriteTag.Text = "Write TAG";
+142c142
+<             this.mnuReadTags.Text = "TAG(s) lesen"; // "Read TAGs";
+---
+>             this.mnuReadTags.Text = "Read TAGs";
+152c152
+<             this.mnuFreeCMDs.Text = "Freie Befehle"; // "Free CMDs";
+---
+>             this.mnuFreeCMDs.Text = "Free CMDs";
+157c157
+<             this.mnuEditingEnabled.Text = "Bearbeitung erlauben"; // "Editing enabled";
+---
+>             this.mnuEditingEnabled.Text = "Editing enabled";
+162c162
+<             this.mnu_BoxIDscanning.Text = "BoxID scannen aktiv"; // "Enable BoxID scanning";
+---
+>             this.mnu_BoxIDscanning.Text = "Enable BoxID scanning";
+167c167
+<             this.mnuEnableTwoTAGscanning.Text = "Zwei-TAGs Modus aktivieren"; // "Enable two TAG scanning";
+---
+>             this.mnuEnableTwoTAGscanning.Text = "Enable two TAG scanning";
+177c177
+<             this.mnuAbout.Text = "Über";
+---
+>             this.mnuAbout.Text = "About";
+239c239
+<             this.txtLog.Text = "Bitte auf [Reader verbinden] tippen";
+---
+>             this.txtLog.Text = "Please tap [Connect Reader]";
+270c270
+<             this.btnCMD.Text = "go";
+---
+>             this.btnCMD.Text = "do";
+320c320
+<             this.btnConnect.Text = "Reader verbinden";
+---
+>             this.btnConnect.Text = "Connect Reader";

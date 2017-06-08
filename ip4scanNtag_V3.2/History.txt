@@ -1,0 +1,19 @@
+version 2.3:
+	changed isValidTag handling, it accepted wrong TAGs
+	changed Box-ID checking (2^20) did not work, using integer now: 1048576
+version 3.0:
+	added logic for two TAGS scanning
+	symbologes will be switched according to scan mode (license plate or BoxID)
+	added some sleeps to avoid duty cycle problems
+	added code to avoid multiple event processing
+	added code to btnConnect to avoid pressing it multiple times
+version 3.0a:
+	changed some texts to german
+version 3.1:
+	changed two tags writing to use BitMask
+	changed menu Enable_BitMask to not disable BitMask usage
+	changed Add2Log to send all messages to debugger too
+	mnuAbout_Click now assembles the version number by use of AssemblyInfo
+	
+
+	

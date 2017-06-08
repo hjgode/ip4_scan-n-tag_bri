@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Devices>
+    <Device Type="C" Family="N" Model="3">
+            <Files  SrcDir="\Flash File Store\SSPB">
+            <!-- files to load to the device -->
+            <File SrcName="SetupASTStart.itc" DestName="SetupASTStart.itc" DestDir="\Windows" ConfigString="CN3*" OS="PocketPC"/>
+            <File SrcName="InstallSelectCN3WM.CAB" DestName="InstallSelectCN3WM.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC"/>
+            <File SrcName="itcivacn3wm.CAB" DestName="itcivacn3wm.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Data Collection and Intermec Settings"/>
+            <File SrcName="SuppRCMagneto.CAB" DestName="SuppRCMagneto.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Funk Wireless Security"/>
+            <File SrcName="IntermecValueAdd.txt" DestName="IntermecValueAdd.txt" DestDir="\Windows" ConfigString="CN3*" OS="PocketPC"/>
+            <File SrcName="IntermecValueAdd.js" DestName="IntermecValueAdd.js" DestDir="\Windows" ConfigString="CN3*" OS="PocketPC"/>
+            <File SrcName="PrinterSupport.CAB" DestName="PrinterSupport.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Printer Support"/>
+            <File SrcName="WLEnablerCN3.ARM.CAB" DestName="WLEnablerCN3.ARM.CAB" DestDir="\CabFiles" ConfigString="CN3????????E1??" OS="PocketPC" Desc="Avalanche Enabler"/>
+            <File SrcName="WLEnablerCN3.ARM.CAB" DestName="WLEnablerCN3.ARM.CAB" DestDir="\CabFiles" ConfigString="XCN3????????E2??" OS="PocketPC" Desc="Avalanche Enabler"/>
+            <File SrcName="WLEnablerCN3.ARM.CAB" DestName="WLEnablerCN3.ARM.CAB" DestDir="\CabFiles" ConfigString="XCN3????????E3??" OS="PocketPC" Desc="Avalanche Enabler"/>
+            <File SrcName="Intermec_DHCP.cab" DestName="Intermec_DHCP.cab" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Intermec DHCP Client"/>
+            <File SrcName="itcauto.CAB" DestName="itcauto.CAB" DestDir="\Temp" ConfigString="CN3*" OS="PocketPC"/>
+            <File SrcName="IBI.cab" DestName="IBI.cab" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Bluetooth"/>
+            <File SrcName="Snapon.CAB" DestName="Snapon.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="CN3 snap-on adapters support"/>
+            <File SrcName="CN3_WM5_SSPB_ID.CAB" DestName="CN3_WM5_SSPB_ID.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" />
+            <File SrcName="idl.CAB" DestName="idl.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="IDLRuntime"/>
+            <File SrcName="PowerPro.CAB" DestName="PowerPro.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Power Profiler"/>
+            <File SrcName="SR07120400_BTH_CN3WM50_ALL.CAB" DestName="SR07120400_BTH_CN3WM50_ALL.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="SR07120400"/>
+            <File SrcName="iGPSApplet.cab" DestName="iGPSApplet.cab" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="GPS Applet"/>
+            <File SrcName="OtherNeededStuff.WM2005_ARMVI.CAB" DestName="OtherNeededStuff.WM2005_ARMVI.CAB" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="Additional Files"/>
+			<File SrcName="IP4scanv310.cab" DestName="IP4scanv310.cab" DestDir="\CabFiles" ConfigString="CN3*" OS="PocketPC" Desc="IP4 Scan-N-Tag BRI VW 3.10"/>
+            <File SrcName="" DestName="wceload.exe" DestDir="\windows" ConfigString="CN3*" Run="true" CmdLine=" /noui  \Temp\itcauto.CAB" StartIn="\"/>
+            <File SrcName="" DestName="RunAutoRun.exe" DestDir="\Windows" ConfigString="CN3*" Run="NoWait" CmdLine="" StartIn="\"/>
+            </Files>
+    </Device>
+</Devices>

@@ -1,0 +1,17 @@
+	Battery pulled
+                 * ReaderEvent: Type=EVT_DCE
+	                    EventData='DEVICE 1 DISCONNECTED'
+                    ReaderEvent: Type=EVT_DCE
+	                    EventData='DEVICE 1 CONNECTING'
+                    The thread 0xc66b4f1a has exited with code 0 (0x0).
+                    ReaderEvent: Type=EVT_DCE
+	                    EventData='DEVICE 1 CONNECTED'
+	Center Trigger
+                 * ReaderEvent: Type=EVT_TRIGGER
+	                    EventData='TRIGPULL GPIO 0'
+                    ReaderEvent: Type=EVT_DCE
+	                    EventData='BUTTON CENTER 1'
+                    ReaderEvent: Type=EVT_TRIGGER
+	                    EventData='TRIGRELEASE GPIO 1'
+                    ReaderEvent: Type=EVT_DCE
+	                    EventData='BUTTON CENTER 0'

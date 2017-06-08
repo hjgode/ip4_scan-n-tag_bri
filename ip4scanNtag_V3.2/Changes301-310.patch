@@ -1,0 +1,91 @@
+diff Bb U:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.cs D:\C-Source\Active\ip4_scan-n-tag_bri\ip4scanNtag_V3\ip4scanNtag_V3.cs
+179,181c179,181
+<                 mnuUseBitMask.Enabled = false;
+<                 mnuUseBitMask.Checked = false;
+<                 m_bUseBitMask = false;
+---
+>                 //mnuUseBitMask.Enabled = false;
+>                 //mnuUseBitMask.Checked = false;
+>                 //m_bUseBitMask = false;
+196,197c196,197
+<                 mnuUseBitMask.Enabled = true;
+<                 mnuUseBitMask.Checked = m_bUseBitMask;
+---
+>                 //mnuUseBitMask.Enabled = true;
+>                 //mnuUseBitMask.Checked = m_bUseBitMask;
+206a207
+>             System.Diagnostics.Debug.WriteLine("ChangeStatus: " + a);
+431a433,435
+>         /// <summary>
+>         /// Add Text at end of edit box and scroll
+>         /// </summary>
+446a451
+>             System.Diagnostics.Debug.WriteLine("Add2List: " + s);
+686a692
+>                     
+731c737,763
+<                     //try every TAG only once
+---
+>                     // For BitMask usage
+>                     VWGTLTAG2 oldTAG = new VWGTLTAG2(vwTag.HexData);
+>                     VWGTLTAG2 oldTAG2 = new VWGTLTAG2(vwTag2.HexData);
+>                     string sBitMask = "";
+>                     string sBitMask2 = "";
+>                     sBitMask = tools.Uint2BinStr(oldTAG.iBOXidentification, 20) +
+>                         VWGTLTAG2.sBinStrPartition +
+>                         tools.Uint2BinStr(oldTAG.iFilter, 3) +
+>                         VWGTLTAG2.sBinStrEPCHeader;
+>                     sBitMask2 = tools.Uint2BinStr(oldTAG2.iBOXidentification, 20) +
+>                         VWGTLTAG2.sBinStrPartition +
+>                         tools.Uint2BinStr(oldTAG2.iFilter, 3) +
+>                         VWGTLTAG2.sBinStrEPCHeader;
+> 
+>                     sBitMask = tools.ReverseString(sBitMask);
+>                     sBitMask2 = tools.ReverseString(sBitMask2);
+>                     //H3418000040BEA620475BCD15
+>                     //B00110100 11011000 01111000 10010000 00=HD361E240
+>                     //B00110100110110000111100010010000 = H34D87890
+>                     //bits 32-128 are EPCID, EPCID memory bank bits 0-15 are CRC, 16-31 are PC
+>                     sBitMask = "BIT(1:32,34)=B" + sBitMask;
+>                     sBitMask2 = "BIT(1:32,34)=B" + sBitMask2;
+> 
+>                     //where BIT does not work correctly with IP4, if IP4 model A or BRI version before S
+>                     if (m_bUseBitMask)
+>                         sCurrentCMD = "W TAGID EPCID=H" + vwTag.HexData + " WHERE " + sBitMask;
+>                     else
+732a765,767
+> 
+>                     //try every TAG only once
+>                     //sCurrentCMD = "W TAGID EPCID=H" + vwTag.HexData + " WHERE EPCID=H" + sOldTagHex;
+746a782,784
+>                     if (m_bUseBitMask)
+>                         sCurrentCMD = "W TAGID EPCID=H" + vwTag2.HexData + " WHERE " + sBitMask2;
+>                     else
+747a786,787
+> 
+>                     //sCurrentCMD = "W TAGID EPCID=H" + vwTag2.HexData + " WHERE EPCID=H" + sOldTagHex2;
+1318c1358
+< 
+---
+>             System.Diagnostics.Debug.WriteLine("Opening Reader...");
+1322a1363
+>                 System.Diagnostics.Debug.WriteLine("... Reader opened. Trying to set Attributes ...");
+1326a1368
+>                     System.Diagnostics.Debug.WriteLine("... SetAttributes failed! Closing Reader");
+1334a1377,1378
+>                 {
+>                     System.Diagnostics.Debug.WriteLine("Reader connected. ChangeStatus(ReadBarcode)");
+1335a1380
+>                 }
+1336a1382,1383
+>                 {
+>                     System.Diagnostics.Debug.WriteLine("Reader connected. ChangeStatus(ReadBarcode)");
+1338a1386
+>             }
+1519c1567,1570
+<             MessageBox.Show("ip4 Scan-N-tag\nDemo-Application\nVersion 3.01", this.Text);
+---
+>             //MessageBox.Show("ip4 Scan-N-tag\nDemo-Application\nVersion 3.1", this.Text);
+>             string v = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+>             string t = "ip4 Scan-N-tag\nDemo-Application\nVersion " + v;
+>             MessageBox.Show(t, this.Text);

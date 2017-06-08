@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ip4scanNtag", "ip4scanNtag\ip4scanNtag.csproj", "{308F4B35-F0D2-4C52-827A-E3D314D9F036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVWtag", "TestVWtag\TestVWtag.csproj", "{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308F4B35-F0D2-4C52-827A-E3D314D9F036}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA2132B-D4BE-43DE-A8A5-D43A395F434C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

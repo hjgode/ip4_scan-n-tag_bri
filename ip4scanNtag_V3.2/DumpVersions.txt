@@ -1,0 +1,193 @@
+
+*********************************************
+DumpVersions 1.9	31.03.2003 	02:29
+*********************************************
+DeviceID (HID-MPLN):	080004908-0E9D056A0040
+UUID:	_not supported_
+GetUUID() unavailable
+Serialnumber:	010390600008
+Manuf. date:	19042006
+Modell Code:	741B6800E800N00
+Keyboard:	1.31
+Bootstrap:	4.95
+ PSM info: 	PSM Build v4.03 (05-12-2006)
+ASIC FW level:	1.27
+********* OAL VerInfo *********
+ VerInfo:	1
+ Sig:	Intermec 740
+ id:	N
+ cust:	
+ ver:	4.95.1
+ cputype:	Intel
+ cpu:	PXA255
+ core:	
+ date:	Jun 16 2006
+ time:	09:47:45
+*********** OS Versions *********************
+OS Version:	4.20
+OS Build:	0
+OS CSD Version:	
+OS Platform:	PocketPC
+OEM Info:	Intermec 740
+************** Memory ***********************
+ Total:	          30,769,152 Bytes
+ Free:	          10,309,632 Bytes
+ Used:	          20,459,520 Bytes
+** Object Store **
+ Total:	          30,691,328 Bytes
+ Free:	          14,351,796 Bytes
+** File Memory **
+Name:	Flash File Store
+ Total:	          31,613,952 Bytes
+ Free:	          21,748,736 Bytes
+************* Installed Options *************
+LAN9000 Ethernet Dock:	YES
+Docking MAC address:	00:10:40:0a:64:49
+Intermec Software Content:	YES
+Diversity Antenna installed:	YES
+RTC Restore enabled:	YES
+Datacollection SW installed:	YES
+Datacollection HW installed:	value: 0x09
+	unknown
+WAN installed:	YES
+WAN Frequency:	European
+WAN Radio Type:	No Radio
+80211 installed:	YES
+80211 Tadio Type:	value: 0x00
+	No 80211 Radio
+Bluetooth installed:	YES
+Serial2 installed:	YES
+*********** SW Intermec Versions ************
+IKLDriver             :	         31-69-23-33
+FPGA                  :	          0/ 0/ 0 27
+IKLDecoder            :	        4.03.35.1050
+STCDecodeCE           :	             1.3.0.0
+IVA                   :	    iva_4.03.35.1050
+*********** CAB Intermec Versions ***********
+************* DLL File Versions *************
+ \Windows\ItcAxRfid_Basic.dll	            1.00.0.1
+ \Windows\itcUNBR.dll	         2.99.99.999
+ \Windows\itcBasicRFID.dll	         2.99.99.999
+ \Windows\mfcce300d.dll	           6.00.99.0
+ \Windows\GAC_Microsoft.VisualBasic.SR_v8_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.SR_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_CustomMarshalers_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_Microsoft.WindowsMobile.DirectX_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_Microsoft.WindowsCE.Forms_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_Microsoft.VisualBasic_v8_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Data_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Net.IrDA_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Xml_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Windows.Forms.DataGrid_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Windows.Forms_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Web.Services_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Messaging_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System.Drawing_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_System_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\GAC_mscorlib_v2_0_0_0_cneutral_1.dll	         2.00.7045.0
+ \Windows\mscoree.dll	         2.00.7045.0
+ \Windows\netcfd3dm2_0.dll	         2.00.7045.0
+ \Windows\netcfagl2_0.dll	         2.00.7045.0
+ \Windows\MSCOREE2_0.dll	         2.00.7045.0
+ \Windows\eDbgTL.dll	       8.00.50727.42
+ \Windows\TcpConnectionA.dll	       8.00.50727.42
+ \Windows\IRDA_RAL.dll	            1.02.0.0
+ \Windows\RAL.dll	         1.00.0.5002
+ \Windows\it500.dll	         2.01.0.4302
+ \Windows\ITCCommon.dll	            3.00.0.0
+ \Windows\IVA_cesetup.dll	        4.03.35.1050
+ \Windows\SysLight.dll	        4.03.35.1050
+ \Windows\SSConfiglet.dll	        4.03.35.1050
+ \Windows\Iq_lapi_dll.dll	       2.20.6402.148
+ \Windows\Iq_capi_dll.dll	       2.20.6402.148
+ \Windows\Iq_lapi_c_wrapper.dll	       2.20.6402.148
+ \Windows\MSROneilDH.dll	        4.03.35.1050
+ \Windows\MSRSemtekDH.dll	            1.00.0.1
+ \Windows\ITCMSRAPI.dll	            1.00.0.1
+ \Windows\VWServlet.dll	            0.00.0.0
+ \Windows\MemMgr.dll	        4.03.35.1050
+ \Windows\ikldecoderEA11.dll	        4.03.35.1050
+ \Windows\ikldecoder.dll	        4.03.35.1050
+ \Windows\imgdecoder.dll	        4.03.35.1050
+ \Windows\ssapi.dll	       2.20.6402.148
+ \Windows\itcscan.dll	          3.01.0.733
+ \Windows\itc50.dll	          3.01.0.760
+ \Windows\STCDecodeCE.dll	            1.03.0.0
+ \Windows\lscanner.dll	        4.03.35.1050
+ \Windows\IADCDataGrid.dll	        4.03.35.1050
+ \Windows\IRX.dll	        4.03.35.1050
+ \Windows\S9CISCPDH.dll	        4.03.35.1050
+ \Windows\ISCPScanGroupPH.dll	        4.03.35.1050
+ \Windows\BTScannerDH.dll	        4.03.35.1050
+ \Windows\BTServer.dll	        4.03.35.1050
+ \Windows\CommPortWedgeDH.dll	        4.03.35.1050
+ \Windows\S9CISCPPH.dll	        4.03.35.1050
+ \Windows\S9CDeviceHandler.dll	        4.03.35.1050
+ \Windows\ITCComServer.dll	        4.03.35.1050
+ \Windows\InternalHostDecodeDH.dll	        4.03.35.1050
+ \Windows\imagelib.dll	            1.00.0.1
+ \Windows\VCOMCtl.dll	            1.00.0.1
+ \Windows\SWLD26C.DLL	           1.01.1.31
+ \Windows\BCMCF.DLL	            1.00.1.5
+ \Windows\uicom.dll	         3.07.0.3083
+ \Windows\malcommon.dll	         3.03.0.1213
+ \Windows\ppp.dll	         1088.00.0.1
+ \Windows\jscript.dll	         5.05.0.5207
+ \Windows\wmlview.dll	            1.00.0.1
+ \Windows\msim.dll	         2.00.0.1017
+ \Windows\compime.dll	            4.00.0.0
+ \Windows\riresdll.dll	            1.00.0.1
+ \Windows\adoce30.dll	            3.00.0.1
+ \Windows\mfcce300.dll	         6.00.8685.0
+ \Windows\netcfagl1_0.dll	         1.00.3111.0
+ \Windows\atlce300.dll	         6.00.8685.0
+ \Windows\olece300.dll	         6.00.8685.0
+ \Windows\mscoree1_0.dll	         1.00.3111.0
+ \Windows\ebriched.dll	         2.02.3.3205
+ \Windows\dmgr.dll	         2.00.1.3181
+ \Windows\udhid.dll	         2.00.0.1062
+ \Windows\DasShp.dll	         2.00.1.3182
+ \Windows\GAC_Microsoft.VisualBasic_v7_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_Microsoft.WindowsCE.Forms_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_mscorlib_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Data_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Drawing_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Net.IrDA_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Web.Services_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Windows.Forms_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Windows.Forms.DataGrid_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Windows\GAC_System.Xml_v1_0_5000_0_cneutral_1.dll	         1.00.3111.0
+ \Flash File Store\System\UtilitiesCPL.cpl	            1.00.0.1
+ \Flash File Store\System\prnerr.dll	            1.00.0.1
+ \Flash File Store\System\Oneil.dll	            1.00.0.1
+ \Flash File Store\System\npcpport.dll	            1.00.0.1
+ \Flash File Store\System\ITCCommon.dll	           3.02.23.5
+ \Flash File Store\System\CPLAudio.cpl	            1.00.0.1
+ \Flash File Store\System\StcDecodeCE.dll	            1.03.1.6
+
+***** Network Adapter Infos ******
+Adapter Name: 	LAN90001
+Adapter Desc: 	
+Adapter Addr: 	00:10:40:0a:64:49(:00:00)
+IP Address: 	0.0.0.0
+IP Mask: 	0.0.0.0
+Gateway: 	
+***
+DHCP Enabled: Yes
+	DHCP Server: 	192.168.0.250
+Lease Obtained: 1048405251
+Have Wins: Yes
+	Primary Wins Server: 	
+	Secondary Wins Server: 	
+
+***** Network Adapter Infos ******
+Adapter Name: 	USB Cable:
+Adapter Desc: 	
+Adapter Addr: 	00:00:00:00:00:00(:00:00)
+IP Address: 	192.168.55.101
+IP Mask: 	255.255.255.0
+Gateway: 	192.168.55.100
+***
+DHCP Enabled: No
+Have Wins: No

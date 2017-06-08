@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <DevInfo Action="Set" Persist="true">
+    <Subsystem Name="RFID">
+        <Group Name="Reader" Instance="Reader 1">
+            <Field Name="Enable Reader">1</Field> 
+        </Group>
+    </Subsystem>
+  </DevInfo>
+  <DevInfo Action="Set" Persist="true">
+    <Subsystem Name="RFID">
+        <Group Name="Reader" Instance="Reader 1">
+            <Field Name="Device Address">00C01B0C7355</Field> 
+        </Group>
+      </Subsystem>
+  </DevInfo>
+  <DevInfo Action="Set" Persist="true">
+      <Subsystem Name="RFID">
+          <Group Name="Reader" Instance="Reader 1">
+              <Field Name="Device Address">00C01B0C7355</Field> 
+          </Group>
+      </Subsystem>
+  </DevInfo>
+  
